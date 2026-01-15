@@ -36,7 +36,7 @@ body {
 }
 
 .nav-right-button button {
-  background-color: #30B868;
+  background-color: #30b868;
   border: none;
   border-radius: 8px;
   color: #ffffff;
@@ -45,4 +45,110 @@ body {
   line-height: 24px;
   padding: 12px 24px;
   cursor: pointer;
+}
+
+.hero {
+  background-image: url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 674px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.early-btn {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 1000px;
+  color: #30b868;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.9;
+  }
+  70% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.9;
+  }
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #4ade80;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  animation: pulse 2s infinite;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container h1 {
+  font-size: 72px;
+  font-weight: 700;
+  font-style: bold;
+  color: #ffffff;
+  margin-bottom: 16px;
+} 
+.hero-heading {
+  margin: 20px 0;
+}
+.greeen-text {
+  color: #30b868;
+}
+.hero-description {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 32px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.hero-bottom-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 24px;
+  cursor: pointer;
+  margin: 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#green-btn {
+  background-color: #30b868;
+}
+#white-btn {
+  border: #d9d9da 1px solid;
+}
+.bottom-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
