@@ -184,3 +184,40 @@ height: 300px;
   font-weight: 600;
   margin: 16px 0;
 }
+.brain{
+  display: flex;
+  padding: 120px;
+}
+
+.brain-text {
+  margin-left: 60px;
+  padding: 102px 0px;
+} 
+
+.brain-text p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.brain-text h4 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 16px 0;
+}
+ .brain-text ul{
+  list-style-type: none;
+  margin-top: 40px;
+ }
+ .brain-text ul li {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  }
+  #solution {
+    font-size: 18px;
+    color: #30b868;
+  
+  }
